@@ -9,7 +9,7 @@ public class SpectrumCubes : MonoBehaviour
     const int NUM_SAMPLES = 512;
 
     public Color displayColor;
-    public float _maxScale = 10000;
+    public float multiplier = 5000;
     public float startY;
     public float maxHeight = 50;
 
@@ -65,7 +65,7 @@ public class SpectrumCubes : MonoBehaviour
     /// <param name="sample">Sample.</param>
     private float HeightFromSample(float sample)
     {
-        float height = sample * _maxScale + 2;
+        float height = 2  + (sample * multiplier);
         return Mathf.Clamp(height, 0, maxHeight);
     }
 

@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayColor: {r: 1, g: 0.9724138, b: 0, a: 0}
-  _maxScale: 1000
+  multiplier: 500
   startY: 60
   maxHeight: 50
 --- !u!4 &710358859
@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayColor: {r: 0, g: 1, b: 0.048275948, a: 0}
-  _maxScale: 1000
+  multiplier: 500
   startY: 120
   maxHeight: 50
 --- !u!4 &826565399
@@ -541,7 +541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayColor: {r: 1, g: 0, b: 0, a: 0}
-  _maxScale: 1000
+  multiplier: 500
   startY: 0
   maxHeight: 50
 --- !u!82 &1980016660
